@@ -1,0 +1,68 @@
+$bg-main-color: #635c5c;    
+
+body  {
+  margin: 0;  
+}
+
+header {
+    height: 50px;
+    background-color: $bg-main-color;
+    h1 {
+        font-size: 40px;
+        color: white;
+        text-align: center;
+        strong { 
+            color: rgb(50, 32, 139);
+
+        }
+    }
+    h2 {
+        font-size: 32px;
+    }
+}
+
+#rodzic {
+background-color: black;
+margin-top: 30px;
+margin-left: 300px;
+}
+#dziecko1 {
+    width: 30%;
+    float: left;
+}
+#dziecko2 {
+    width: 30%;
+    float: left;
+}
+#dziecko3 {
+    width: 30%;
+    float: left;
+}
+
+.column1 {
+    float: left;
+    width: 320px;
+    margin: 50px;
+}
+.column2 {
+    float: left;
+    width: 320px;
+    margin: 50px;
+}
+.column3 {
+    float: left;
+    width: 320px;
+    margin: 50px; 
+}
+
+#stopka {
+    margin-top: 800px;
+    margin-left: 600px;
+}
+footer {
+    background-color: #635c5c;
+}
+article {
+    text-align: center;
+    margin-left: 200px;
+}
